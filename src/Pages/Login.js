@@ -1,6 +1,7 @@
 import React,{useState} from 'react'
 import './login.css'
-import { useNavigate } from 'react-router-dom'
+// import {useNavigate} from "react-router-dom"
+import {useNavigate} from 'react-router-dom'
 
 let Login =()=>{
     let [password,Setpassword]=useState('')
